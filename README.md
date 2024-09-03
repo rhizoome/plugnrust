@@ -36,7 +36,7 @@ demonstration, or archival purposes. Please note the following:
 Feel free to explore the code and utilize it under the terms of the license
 attached to this repository!
 
-# Linking
+## Linking
 
 Rust cannot create macOS shared-libraries for `dlopen` (bundles). The official way
 to create bundles is to create a static-library and link it with `clang`. As I
