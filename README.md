@@ -1,5 +1,4 @@
-plugnrust
-=========
+# plugnrust
 
 I am not affiliated with [Blue Cat Audio](https://www.bluecataudio.com), so
 please report issues with this template here.
@@ -17,8 +16,27 @@ script](https://www.bluecataudio.com/Doc/Product_PlugNScript/#NativeReference.Sc
 It is not my goal to create a state of the art rust-crate, I am totally ok with
 some unsafe here and there.
 
-Linking
--------
+## Repository Status: Sharing / Inactive
+
+This repository hosts code that I’ve chosen to share publicly for educational,
+demonstration, or archival purposes. Please note the following:
+
+- **No Active Maintenance**: This project is not actively maintained or updated.
+  It serves primarily as a snapshot of a certain stage of development for those
+  who might find parts of the code useful or interesting. I try to accept pull-
+  request, but do not expect anything. If interest in the project increases, I
+  might change the repository status.
+- **No Support Provided**: As this is an inactive project, I’m unable to provide
+  support, answer issues, or accommodate pull requests.
+- **Use at Your Own Risk**: While you’re welcome to explore, fork, or use the
+  code in your own projects, please do so with the understanding that this
+  repository is provided as-is, without any guarantees on its functionality or
+  security.
+
+Feel free to explore the code and utilize it under the terms of the license
+attached to this repository!
+
+# Linking
 
 Rust cannot create macOS shared-libraries for `dlopen` (bundles). The official way
 to create bundles is to create a static-library and link it with `clang`. As I
